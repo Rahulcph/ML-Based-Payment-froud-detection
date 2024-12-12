@@ -1,0 +1,26 @@
+make folder fraud
+create env
+C:\Users\duaa\Desktop\fraud>python -m venv env
+
+C:\Users\duaa\Desktop\fraud>dir
+ Volume in drive C is OS
+ Volume Serial Number is 68B4-58CE
+
+go to fraud folder
+ Directory of C:\Users\duaa\Desktop\fraud
+
+29-11-2024  21:25    <DIR>          .
+29-11-2024  21:08    <DIR>          ..
+29-11-2024  21:08    <DIR>          app
+29-11-2024  18:04       150,828,752 creditcard.csv
+29-11-2024  21:25    <DIR>          env
+29-11-2024  18:44             1,277 flask_app.py
+29-11-2024  21:11             1,398 fraud_ml.py
+               3 File(s)    150,831,427 bytes
+               4 Dir(s)  174,571,728,896 bytes free
+
+activate environment
+C:\Users\duaa\Desktop\fraud>env\Scripts\activate
+
+install necessary libs,modules
+(env) C:\Users\duaa\Desktop\fraud>pip install pandas numpy scikit-learn flask matplotlib seaborn
